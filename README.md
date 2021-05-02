@@ -72,17 +72,16 @@ changed so no paths were ever pinged.)
 because pathways have a "recommended by" variable to see where the
 route information originated from.
 ### UI
-Dashboard
-• The community's online status/ping
-• Pinging/online state of pinned nodes (which includes trusted nodes,
-trusted nodes listed first)
-Active Pallets
-• List’s data parcels awaiting receipt.
-Node Profile
-• Relationship setting ("None", "Pinned", "Trusted and Pinned")
-• Success rates
-• Volume statistics
-Future Incentive Structure
+#### Dashboard
+* The community's online status/ping
+* Pinging/online state of pinned nodes (which includes trusted nodes, trusted nodes listed first)
+#### Active Pallets
+* List’s data parcels awaiting receipt.
+#### Node Profile
+* Relationship setting ("None", "Pinned", "Trusted and Pinned")
+* Success rates
+* Volume statistics
+#### Future Incentive Structure
 What prevents a node from reacting to ping chunks but failing to forward data?
 Incentives help to solve a lot of the network's confidence problems. It also allows
 nodes to pop up and assist the network in congested areas, similar to how
