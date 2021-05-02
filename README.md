@@ -172,8 +172,8 @@ sequence_numbers after a certain amount of time into a
 min_sequence_number that is equal to the largest stored
 sequence_number. In essence, we disregard any parcel that satisfies any of
 the following criteria:
-* parcel_sequence_number <= min_sequence_number
-* received_sequence_numbers.contains(parcel_sequence_number)
+* **parcel_sequence_number <= min_sequence_number**
+* **received_sequence_numbers.contains(parcel_sequence_number)**
 #### Improving the Solution
 Due to the way the valid sequence number consolidation happens, large data
 payloads will need to be retried if they are in the process of being sent when a
@@ -223,8 +223,8 @@ Payload Types
     * **Require Tested Path:** Yes
     * **Resolve Unknown Path:** No
 * **FindResponse**
-    * Require Tested Path: Yes
-    * Resolve Unknown Path: Yes
+    * **Require Tested Path:** Yes
+    * **Resolve Unknown Path:** Yes
 * **Data**
     * **Require Tested Path:** Yes
     * **Resolve Unknown Path:** Yes
@@ -232,8 +232,8 @@ Payload Types
     * **Require Tested Path:** Yes
     * **Resolve Unknown Path:** Yes
 * **Announce**
-    * Require Tested Path: No
-    * Resolve Unknown Path: No
+    * **Require Tested Path:** No
+    * **Resolve Unknown Path:** No
 
 #### Steps to Send Parcel
 1. Create a parcel object and supply it a destination.
